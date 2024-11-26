@@ -1,7 +1,7 @@
 <?php
 
 
-abstract class Logger {
+abstract class ulogger {
 
 
     public static function log($message)
