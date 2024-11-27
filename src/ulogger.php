@@ -4,7 +4,7 @@
 abstract class ulogger {
 
 
-    public static function log($message)
+    public static function debug($message)
     {
 
         if (true !== WP_DEBUG) return;

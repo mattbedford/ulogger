@@ -16,5 +16,8 @@
 
 
 add_action('init', function() {
+
+    if(class_exists('ulogger')) return;
     require_once __DIR__ . '/src/ulogger.php';
+
 });
