@@ -3,7 +3,7 @@
 /**
  * Plugin Name: ulogger
  * Description: Ultra-basic utility class to log php output in a convenient manner.
- * Version:     1.0.0
+ * Version:     1.2.0
  * Author:      Dev Team
  * Text Domain: ulogger
  * Requires PHP:    8.1
