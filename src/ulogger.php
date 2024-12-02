@@ -24,7 +24,8 @@ abstract class ulogger {
         $filename = 'ulogger.txt';
         $timestamp = date('Y-m-d H:i:s');
         file_put_contents($filename, $timestamp . ' ' . $message . PHP_EOL, FILE_APPEND);
-
+        $path = ABSPATH . $filename;
+        self::console("Ulogger has logged info to file: " . $path);
     }
 
 
