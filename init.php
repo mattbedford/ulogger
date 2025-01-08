@@ -18,6 +18,9 @@
 add_action('init', function() {
 
     if(class_exists('ulogger')) return;
+    if(!current_user_can('manage_options')) return;
+    if(!defined('ABSPATH')) return;
+
     require_once __DIR__ . '/src/ulogger.php';
 
 });
